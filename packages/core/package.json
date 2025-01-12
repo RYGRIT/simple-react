@@ -1,0 +1,13 @@
+{
+  "name": "core",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "module": "src/index.ts",
+  "keywords": [],
+  "author": "Leo Doe",
+  "license": "MIT",
+  "dependencies": {
+    "shared": "workspace:*"
+  }
+}

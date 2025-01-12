@@ -1,0 +1,37 @@
+{
+  "private": true,
+  "name": "@doe/monorepo-starter",
+  "version": "0.0.0",
+  "description": "Monorepo starter",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint -c eslint.config.mjs --cache",
+    "format": "prettier --write --cache .",
+    "prepare": "husky"
+  },
+  "keywords": [
+    "monorepo starter"
+  ],
+  "author": "Leo Doe",
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^19.6.1",
+    "@commitlint/config-conventional": "^19.6.0",
+    "@eslint/js": "^9.17.0",
+    "@types/node": "^22.10.5",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "globals": "^15.14.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.3.0",
+    "prettier": "3.4.2",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.19.1"
+  },
+  "lint-staged": {
+    "*.{js?(x),ts?(x)}": [
+      "eslint --fix",
+      "prettier --write"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    /* Projects */
+    "composite": true,
+
+    /* Language and Environment */
+    "target": "es2016",
+    "lib": ["ESNext", "DOM"],
+    "jsx": "preserve",
+
+    /* Modules */
+    "module": "ESNext",
+    "rootDir": ".",
+    "moduleResolution": "bundler",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["packages/*/src"]
+    },
+    "types": ["node"],
+    "resolveJsonModule": true,
+
+    /* JavaScript Support (allowJs, checkJs，maxNodeModuleJsDepth) */
+
+    /* Emit */
+    "sourceMap": false,
+
+    /* Interop Constraints */
+    "isolatedDeclarations": true,
+    "esModuleInterop": true,
+    // 设置此选项后，如果程序尝试使用与磁盘上的大小写不同的大小写包含文件，TypeScript 将发出错误。
+    // 默认值：true
+    "forceConsistentCasingInFileNames": true,
+
+    /* Type Checking */
+    "strict": true,
+
+    /* Completeness */
+    "skipLibCheck": true
+  },
+  "include": ["packages/*/src"]
+}
