@@ -9,7 +9,10 @@
     "format": "prettier --write --cache .",
     "prepare": "husky"
   },
-  "keywords": ["simple-react", "react"],
+  "keywords": [
+    "simple-react",
+    "react"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/RYGrit/simple-react.git"
@@ -21,6 +24,8 @@
     "@commitlint/config-conventional": "^19.6.0",
     "@eslint/js": "^9.17.0",
     "@types/node": "^22.10.5",
+    "@types/react": "^19.0.5",
+    "@types/react-dom": "^19.0.3",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.2.1",
     "globals": "^15.14.0",
