@@ -1,17 +1,19 @@
 {
   "private": true,
-  "name": "@doe/monorepo-starter",
+  "name": "@doe/simple-react",
   "version": "0.0.0",
-  "description": "Monorepo starter",
+  "description": "By building this simplified version of the React library, we were able to dive into React's core concepts, lifecycle, how the virtual DOM works, and the component development model.",
   "type": "module",
   "scripts": {
     "lint": "eslint -c eslint.config.mjs --cache",
     "format": "prettier --write --cache .",
     "prepare": "husky"
   },
-  "keywords": [
-    "monorepo starter"
-  ],
+  "keywords": ["simple-react", "react"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RYGrit/simple-react.git"
+  },
   "author": "Leo Doe",
   "license": "MIT",
   "devDependencies": {
