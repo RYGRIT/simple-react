@@ -14,7 +14,7 @@
     "moduleResolution": "bundler",
     "baseUrl": ".",
     "paths": {
-      "*": ["packages/*/src"]
+      "*": ["packages/*"]
     },
     "types": ["node"],
     "resolveJsonModule": true,
@@ -37,5 +37,5 @@
     /* Completeness */
     "skipLibCheck": true
   },
-  "include": ["packages/*/src"]
+  "include": ["packages/**/*.ts"]
 }

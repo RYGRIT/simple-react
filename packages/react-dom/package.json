@@ -1,5 +1,5 @@
 {
-  "name": "react",
+  "name": "react-dom",
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
@@ -8,6 +8,7 @@
   "author": "Leo Doe",
   "license": "MIT",
   "dependencies": {
-    "shared": "workspace:*"
+    "react-reconciler": "workspace:*",
+    "shared": "workspace:^"
   }
 }

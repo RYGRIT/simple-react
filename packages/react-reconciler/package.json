@@ -1,13 +1,10 @@
 {
-  "name": "react",
+  "name": "react-reconciler",
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
   "module": "index.ts",
   "keywords": [],
   "author": "Leo Doe",
-  "license": "MIT",
-  "dependencies": {
-    "shared": "workspace:*"
-  }
+  "license": "MIT"
 }
